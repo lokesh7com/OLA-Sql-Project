@@ -1,91 +1,145 @@
 🚖 OLA SQL Data Analysis Project
 
-## 📌 Project Overview
+<p align="center">
 
-This project demonstrates SQL skills by analyzing a real-world OLA ride-booking dataset. It focuses on extracting meaningful business insights using SQL queries, helping understand customer behavior, ride performance, cancellations, vehicle usage, and revenue-related metrics.
 
-The project is designed to showcase proficiency in writing SQL queries using filtering, aggregation, grouping, sorting, joins, subqueries, and analytical functions.
 
----
 
-## 🎯 Objectives
 
-* Analyze OLA ride booking data using SQL.
-* Retrieve key business insights from ride records.
-* Practice real-world SQL interview questions.
-* Demonstrate data analysis skills for portfolio and GitHub.
 
----
 
-## 📊 SQL Analysis Performed
+</p>
 
-The project includes queries to answer business questions such as:
+📌 Project Overview
 
-* Retrieve all successful bookings.
-* Find the average ride distance for each vehicle type.
-* Calculate the total number of rides cancelled by customers.
-* Identify the top 5 customers with the highest number of bookings.
-* Analyze ride status distribution.
-* Evaluate customer and driver ratings.
-* Explore vehicle-wise booking trends.
-* Generate additional insights using SQL aggregation and filtering techniques.
+The OLA SQL Data Analysis Project is a portfolio project that demonstrates how SQL can be used to analyze ride-booking data and generate meaningful business insights.
 
----
+Using a realistic OLA dataset, this project answers common business questions related to bookings, cancellations, customer behavior, vehicle performance, and ride statistics through well-structured SQL queries.
 
-## 🛠️ SQL Concepts Used
+This project is ideal for showcasing SQL skills required for Data Analyst, Business Analyst, and Business Intelligence roles.
 
-* SELECT Statements
-* WHERE Clause
-* GROUP BY
-* ORDER BY
-* Aggregate Functions (COUNT, SUM, AVG)
-* HAVING Clause
-* CASE Statements
-* Subqueries
-* Common Table Expressions (CTEs)
-* Window Functions (where applicable)
+🎯 Project Objectives
+Analyze OLA ride booking data using SQL.
+Practice real-world SQL interview questions.
+Extract meaningful business insights.
+Strengthen SQL querying and analytical skills.
+Build a professional portfolio project.
+🗂 Dataset Information
 
----
+The dataset contains ride booking information with fields such as:
 
-## 📁 Dataset
+Booking ID
+Booking Date & Time
+Booking Status
+Customer ID
+Vehicle Type
+Pickup Location
+Drop Location
+Ride Distance
+Driver Rating
+Customer Rating
+Cancellation Details
+Payment Information
+📊 Business Questions Solved
 
-The dataset contains OLA ride booking information with attributes such as:
+This project includes SQL queries to answer questions such as:
 
-* Booking ID
-* Booking Status
-* Customer ID
-* Vehicle Type
-* Pickup & Drop Locations
-* Ride Distance
-* Driver Rating
-* Customer Rating
-* Cancellation Details
-* Booking Date & Time
+Booking Analysis
+Retrieve all successful bookings.
+Count total completed rides.
+Analyze booking status distribution.
+Customer Analysis
+Find the top 5 customers with the highest number of bookings.
+Count rides cancelled by customers.
+Analyze customer ratings.
+Vehicle Analysis
+Calculate the average ride distance for each vehicle type.
+Compare vehicle usage across bookings.
+Analyze ride trends by vehicle category.
+Cancellation Analysis
+Count rides cancelled by customers.
+Analyze cancellation reasons.
+Evaluate cancellation patterns.
+Performance Analysis
+Calculate average driver ratings.
+Calculate average customer ratings.
+Generate summary statistics using SQL aggregate functions.
+🛠 SQL Concepts Used
+SELECT
+WHERE
+ORDER BY
+GROUP BY
+HAVING
+COUNT()
+SUM()
+AVG()
+MIN()
+MAX()
+DISTINCT
+CASE Statements
+Subqueries
+Common Table Expressions (CTEs)
+Window Functions
+Aggregate Functions
+📸 Project Screenshots
+SQL Query Execution
+Screenshot 1
+https://github.com/lokesh7com/OLA-Sql-Project/blob/main/OlaSQL1.png
 
----
+Screenshot 2
+https://github.com/lokesh7com/OLA-Sql-Project/blob/main/OLaSql2.png
 
-## 📸 Project Screenshots
 
-### SQL Query Execution
+💼 Skills Demonstrated
+SQL
+MySQL
+Data Cleaning
+Data Analysis
+Business Analytics
+Query Optimization
+Data Aggregation
+Reporting
+Problem Solving
+🚀 Learning Outcomes
 
-![SQL Screenshot 1](https://github.com/lokesh7com/OLA-Sql-Project/blob/main/OlaSQL1.png)
+Through this project, I gained hands-on experience in:
 
-![SQL Screenshot 2](https://github.com/lokesh7com/OLA-Sql-Project/blob/main/OLaSql2.png)
+Writing efficient SQL queries.
+Solving real-world business problems.
+Working with ride-booking datasets.
+Performing customer and vehicle analysis.
+Using SQL for business intelligence reporting.
+📂 Repository Structure
+OLA-SQL-Project
+│
+├── Dataset/
+│   └── OLA_Booking_Data.csv
+│
+├── SQL Queries/
+│   └── OLA_SQL_Project.sql
+│
+├── Screenshots/
+│   ├── OlaSQL1.png
+│   └── OLaSql2.png
+│
+└── README.md
+⭐ Key Highlights
+Real-world OLA ride booking dataset
+Multiple business case studies
+Beginner to intermediate SQL queries
+Portfolio-ready project
+Interview-oriented SQL practice
+Well-documented SQL analysis
+📈 Future Improvements
+Add advanced SQL window function examples.
+Create SQL views and stored procedures.
+Integrate the dataset with Power BI for interactive dashboards.
+Develop KPI reports for business performance monitoring.
+🤝 Connect With Me
 
----
+👨‍💻 Author
+Lokesh Kumar
 
-## 🚀 Skills Demonstrated
+Power BI Developer | Data Analyst
 
-* SQL Data Analysis
-* Business Intelligence
-* Data Exploration
-* Query Optimization
-* Analytical Thinking
-* Database Management
-
----
-
-## 📌 Conclusion
-
-This project demonstrates how SQL can be used to transform raw ride-booking data into meaningful business insights. It highlights practical SQL problem-solving skills commonly required in Data Analyst and Business Intelligence roles and serves as a strong portfolio project for showcasing SQL proficiency.
-ject
+⭐ If you found this project useful, please consider giving this repository a Star!
