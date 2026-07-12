@@ -192,6 +192,6 @@ OLA-SQL-Project
 👨‍💻 Author
 Lokesh Kumar
 
-Power BI Developer | Data Analyst
+Data Analyst
 
 ⭐ If you found this project useful, please consider giving this repository a Star!
